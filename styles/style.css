@@ -8,7 +8,7 @@ body {
 #header {
 	display: 		  table;
 	text-align:       center;
-	background:       url(images/Background.png) no-repeat scroll; 
+	background:       url(../images/Background.png) no-repeat scroll; 
 	background-size:  contain;
 	height:           882px;
 	width:            1600px;
