@@ -2,27 +2,27 @@ body {
 	background-color:  #F6F6F4;
 	font-family:       Georgia, "Times New Roman", Times, serif;
     font-size:         small;
-	margin: 0px;
+	margin:            0px;
 }
 
 #header {
 	display: 		  table;
 	text-align:       center;
-	background:       url(images/Background.png) top center; 
-	/*height: 882px;*/
-	width: 1600px;
-	/*position:         relative; */
-	/*background-image: url(images/Background.png);    width: 1600px;	*/
+	background:       url(images/Background.png) no-repeat scroll; 
+	background-size:  contain;
+	height:           882px;
+	width:            1600px;
+	margin:           0px;
 }
 
-#header p {
-    color: #F6F6F4;
- 	font-size: 200%; 
-	font-style:  italic;	
+#header p { 
+    color:            #F6F6F4;
+ 	font-size:        200%; 
+	font-style:       italic;	
 }	
 #header h1 { 
-	color: white;
-	font-size: 600%;
-	font-weight: normal;
+	color:            white;
+	font-size:        600%;
+	font-weight:      normal;
 	
 }  	
