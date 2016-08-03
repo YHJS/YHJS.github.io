@@ -1,20 +1,25 @@
 body {
-	background-color:  #F6F6F4;
-	font-family:       Georgia, "Times New Roman", Times, serif;
-    font-size:         small;
-	margin:            0px;
+	background-color: #F6F6F4; 								/* Цвет фона веб-страницы  */
+											/*Georgia, "Times New Roman", Times, serif;*/
+    font-family: 	  'Lato', sans-serif;
+	font-size:        small;
+	margin:           0px;
 }
-
 #header {
 	display: 		  table;
 	text-align:       center;
-	background:       url(../images/Background.png) no-repeat scroll; 
+	background:       url(../images/HeadBackground.png) no-repeat scroll #d29385;											
 	background-size:  contain;
 	height:           882px;
 	width:            1600px;
 	margin:           0px;
 }
-
+#HeadTextStarNight{
+	text-align:       center;
+	height:           400px;
+	width:            1200px;
+	margin-left:      200px;
+}
 #header p { 
     color:            #F6F6F4;
  	font-size:        200%; 
@@ -23,6 +28,232 @@ body {
 #header h1 { 
 	color:            white;
 	font-size:        600%;
-	font-weight:      normal;
-	
+	font-weight:      200; 
 }  	
+#TableContainerPage2 {
+	display: 		  table;
+	background: 	  #e8b968;
+	height:           882px;
+	width:            1600px;
+	margin:           0px;
+}
+#TextHeadPage2 {
+	display:          table-cell;
+	padding: 		  50px;
+	height:           300px;
+	width:            800px;
+	color:            white;
+	font-family:      Tahoma, Geneva, sans-serif;
+	font-size:        large;
+	line-height:      2;
+}
+#ButtonGetStarted {
+	 position:        absolute;
+	 left: 			  659px; 
+	 top: 		      750px;
+	 color: 		  white;
+	 background:  	  #7accc8; 
+	 height:          72px;
+	 width:           282px;
+	 font-size:       large;
+	 letter-spacing:  3px;
+	 font-family:     Tahoma, Geneva, sans-serif;
+}
+#Playbutton {
+	 position:        absolute;
+	 left: 			  754px; 
+	 top: 		      365px;	
+	 background:  	  0;
+	 border:	 	  10px solid white;
+	 border-radius:   50px;
+	 height:          99px;
+	 width:           99px;	 
+}
+#triangle {
+	 position:        absolute;
+	 left: 			  800px; 
+	 top: 		      400px;
+	 border:	 	  16px solid transparent;
+	 border-left:     16px solid white;
+}
+#ButtonDounloadNow {
+	 color: 		  white;
+	 background:  	  #e8b968;
+	 border:	 	  3px solid white;
+	 height:          72px;
+	 width:           280px;
+	 font-size:       large;
+	 letter-spacing:  3px;
+	 font-family:     Tahoma, Geneva, sans-serif;
+	 text-align:      centr;
+	 margin:          auto 660px;
+}
+#ButtonTryDemo {
+	 color: 		  white;
+	 background:  	  #f69679; 
+	 height:          61px;
+	 width:           181px;
+	 font-size:       large;
+	 letter-spacing:  3px;
+	 font-family:     Tahoma, Geneva, sans-serif;
+	 text-align:      centr;
+	 margin:          auto 710px;
+	 
+} 
+#TableContainerTextPage3 {
+	display: 		  table;
+	padding: 		  50px 100px;	
+	background: 	  white;
+	height:           782px;
+	width:            1400px;
+}
+#TableRow1 {
+	display: 		  table-row;
+	height:           300px;
+	width:            1600px;
+	margin:           0px;
+}
+#TableRow2 {
+	display: 		  table-row;
+	height:           300px;
+	width:            1600px;
+	margin:           0px;
+}
+#TableRow3 {
+	display: 		  table-row;
+	height:           100px;
+	width:            1600px;
+	background: 	  white;
+}
+div.TextCellPage3 {
+	display:          table-cell;
+	padding: 		  50px;
+	height:           100px;
+	width:            400px;
+	color:            #c0c0c0;
+	font-family:      Tahoma, Geneva, sans-serif;
+	font-size:        large;
+	line-height:      2;
+}
+h2 {
+	text-transform:   uppercase;
+	font-weight:      normal;
+}
+h3 {
+	text-transform:   uppercase;
+	font-weight:      normal;
+}
+
+#TableContainerCell1Page4{
+	display:          table-cell;
+	padding: 		  20px; 
+	height:           489px;
+	width:            337px;
+	color:            #c0c0c0;
+	font-family:      Tahoma, Geneva, sans-serif;
+}
+#TableContainerCell2Page4{
+	display:         table-cell;
+	padding: 		 20px;
+	height:          489px;
+	width:           337px;
+	color:           #c0c0c0;
+	font-family:     Tahoma, Geneva, sans-serif;
+}
+#TableContainerCell3Page4 {
+	display:         table-cell;
+	height:          489px;
+	width:           500px;
+	color:           #c0c0c0;
+	font-family:     Tahoma, Geneva, sans-serif;
+	font-size:       x-large;
+	line-height:     1.5;
+	padding: 		 0px 20px 0px 20px; 
+}	
+#TableContainerCell3Page4 p {
+	font-size:       large;
+	line-height:     2;
+}
+#SquareLeftColor{
+	display:         table-cell;
+	height:          346px;
+	width:           337px;
+	background:      #f69679; 
+	font-family:     Tahoma, Geneva, sans-serif;
+}
+#SquareRightColor {
+	display:         table-cell;
+	height:          346px;
+	width:           337px;
+	background:      #e8b968;
+	font-family:     Tahoma, Geneva, sans-serif;
+}
+#SquareRightText{
+	padding: 		 20px 20px 40px 20px;
+	background:      white;
+}
+#SquareRightText h3 {
+	letter-spacing:	 3px;
+}
+#SquareRightText p {
+	font-style:	     oblique;
+}	
+#SquareLeftText{
+	padding: 		 20px 20px 40px 20px;
+	background:      white;
+	
+}
+#SquareLeftText h3 {
+	letter-spacing:	 3px;
+}
+#SquareLeftText p {
+	font-style:	     oblique;
+}
+#TableContainerPage5 {
+	display: 		  table;
+	padding: 		  50px 100px;	
+	background: 	  #7accc8;
+	height:           782px;
+	width:            1400px;
+	color:            white;
+	font-family:      Tahoma, Geneva, sans-serif;
+	line-height:      2;
+	font-size:        large;
+	margin: 		  0px;
+}
+
+#TableContainerCell1Page5 {
+	display:         table-cell;
+	padding: 		 50px;
+	height:          100px;
+	width:           400px;
+}
+#TableContainerCell2Page5 {
+	display:         table-cell;
+	padding: 		 50px;
+	height:          100px;
+	width:           250px;
+}
+#TableContainerCellMenuPage5{
+	display:         table-cell;
+	padding: 		 0px 0px 0px 250px;
+	height:          100px;
+	width:           300px;
+}
+#TableContainerRow2Page5{
+	text-align: 	 center;
+	text-transform:  uppercase;
+	letter-spacing:  3px;	
+}
+#TableContainerRow2Page5 a {
+	text-decoration: none;
+    color: 			 white;
+}	
+.MainMenu {
+	list-style-type: none;
+}
+.MainMenu a {
+    text-decoration: none;
+    color: 			 white;
+
+}
