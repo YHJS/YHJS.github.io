@@ -3,23 +3,22 @@
 	<head>
 		<meta charset="utf-8"> 
 		<link rel="stylesheet" type="text/css" href="styles/style.css" >
-		<link rel="icon" type="image/ico" href="images/favicon.ico">
+        <link href='https://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
+		<link rel="icon" type="image/ico" href="img/favicon.ico">
 		<meta name="author" content="Hinevich Yura, FD1-29-16">
 		<meta name="description" content="My First homework">
 		<meta name="robots" content="noindex">
-		<!-- <meta http-equiv="refresh" content="100"> -->
 		<title> 
 			StarNight 
 		</title>
-		<!-- <base target="_blank"> - пишем так, чтоб по умолчанию все ссылки отображались в новом окне -->
 		<!--inspection: GoogleChrome(52.0.2743.82 m) - checked ok; 
-	  				 FireFox (43.0.1) - checked ok;
-					 InternetExplorer(11.0.9)- checked ok;
-					 Edge(25.10586.0.0) - checked ok. 						-->
+						FireFox (43.0.1) - checked ok;
+						InternetExplorer(11.0.9)- checked ok;
+						Edge(25.10586.0.0) - checked ok. 						-->
 	</head>
 	<body>
 		<div id="header">
-			<div id=HeadTextStarNight>
+			<div id="HeadTextStarNight">
 				<h1>
 					Starnight App
 				</h1>
@@ -27,34 +26,49 @@
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
 					sed do eiusmod tempor incididunt ut labore 
 					et dolore magna aliąua.Ut enim ad minim veniamt quis nostrud exercitation
-				</p>
+				</p>	
 			</div>	
-				<p>
-					<a href="page2/page2.html" target="_blank">
-						page2
-					</a>
-					<a href="page3/page3.html" target="_blank">
-						page3
-					</a>
-					<a href="page4/page4.html" target="_blank">
-						page4
-					</a>
-					<a href="page5/page5.html" target="_self" >
-						page5
-					</a>
-				</p>
-			<form>
-				<button id="ButtonGetStarted" type="button" name="GetStarted" > 
-					Get Started
+			<div>
+				<button id="Playbutton" type="button" name="Playbutton" >
+					<div id="triangle">
+					</div>
 				</button>
-				<!-- Кнопка средствами CSS. Преимущества: 
-				1.Фото на кнопке может не подрузиться
-				2.Возможно, выполянется браузером быстрее-->
-				<button id="Playbutton" type="button" name="Playbutton" > 
-				</button>
-				<div id="triangle">
-				</div>
-			</form>		
-	   </div>   	
+			</div>
+			<button id="ButtonGetStarted" type="button" name="GetStarted" > 
+				Get Started
+			</button>
+			<div id="Menu">
+			<menu class="MainMenu" type="list" >
+					<li>
+						<a href="index.html">
+							Page 1
+						</a>
+					</li>
+					<li>
+						<a href="pages/page2.html">
+							Page 2
+						</a>
+					</li>
+					<li>
+						<a href="pages/page3.html">
+							Page 3 
+						</a>
+					</li>
+					<li>
+						<a href="pages/page4.html">
+							Page 4
+						</a>
+					</li>
+					<li>
+						<a href="pages/page5.html" target="_self">
+							Page 5
+						</a>
+					</li>
+				</menu>		
+			</div>
+			<iframe id="HeadVideo" src="https://www.youtube.com/embed/rjxDePsXTsM">
+				EPAM Timelapse Video - Ваш браузер не поддерживает встроенные фреймы!
+			</iframe>
+		</div>
 	</body>
 </html>
